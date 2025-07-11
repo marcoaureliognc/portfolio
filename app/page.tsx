@@ -4,11 +4,11 @@ import Image from "next/image";
 import pp from "../public/img-porfolio.jpg";
 // import pr_sd from "../public/pr-sd-home.jpg";
 import ThemeToggle from "../components/ui/theme-toggle";
-import {motion} from 'framer-motion';
+import {motion} from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Card, CardContent } from "@/components/ui/card";
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -58,7 +58,7 @@ export default function Home() {
                 </p>
                 <p className="text-gray-600 text-md dark:text-gray-300 max-w-2xl mb-3">
                   My main focus is developing scalable applications or services with optimized interfaces, ensuring that users have a great experience when working with the final product.
-                  I'm constantly improving my skills to enhance my work and personal experience.
+                  I&apos;m constantly improving my skills to enhance my work and personal experience.
                 </p>
               </motion.div>
 
